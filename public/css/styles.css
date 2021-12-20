@@ -39,8 +39,12 @@ body {
 
 #logo {
      width:50px;
+     height:auto;
      margin: 16px;
      flex-grow:0;
+     
+     align-self: flex-start;
+     justify-self: flex-start;
 }
 #nav-filler {
     flex-grow:1;
