@@ -1,7 +1,83 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple website to showcase projects.">
+  <meta property="og:title" content="James Cummins' Website">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="A simple website to showcase projects.">
+
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
 <body>
-    <h1>Index</h1>
-    <p>I love the sun!</p>
+  <!-- your content here... -->
+  <div id="navbar-box">
+    <div id="navbar-toprow">
+      <img id="logo" src="assets/logo.png">
+      <div id="nav-filler"></div>
+      <img id="hamburger" src="assets/hamburger.svg" onclick="toggleMobileOptions()">
+    </div>
+    <div id="navbar-mobile-options-box">
+      <div class="navbar-mobile-option">
+        My Journey
+      </div>
+      <div class="navbar-mobile-option">
+        My Projects
+      </div>
+      <div class="navbar-mobile-option">
+        Contact
+      </div>
+    </div>
+  </div>
+  <div id="hero-box">
+    <div id="hero-text-box">
+      <div id="hero-text">
+        James Cummins
+      </div>
+      <div id="hero-subtext">
+        Designer, Software Engineer, Language Learner
+      </div>
+    </div>
+    <img id="hero-image" src="assets/hero.png">
+  </div>
+  <div id="facts-box">
+    <div class="fact-frame">
+      <img class="fact-icon" src="assets/award.svg">
+      <div class="fact-text">
+        Macquarie University's Department of Computing Academic Commendation Recipient
+      </div>
+    </div>
+    <div class="fact-frame">
+      <img class="fact-icon" src="assets/website.svg">
+      <div class="fact-text">
+        <strong>8</strong> Modern Languages & <strong>5</strong> Modern Frameworks Used & Mastered <br><span
+          class="fact-subtext">Including Dotnet & Angular</span>
+      </div>
+    </div>
+    <div class="fact-frame">
+      <img class="fact-icon" src="assets/experience.svg">
+      <div class="fact-text">
+        3 + Years of Experience in the Industry<br><span class="fact-subtext">Including Building Apps, Product
+          Management and more...</span>
+      </div>
+    </div>
+  </div>
+  <script src="js/scripts.js"></script>
 </body>
+
 </html>
