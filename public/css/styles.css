@@ -139,8 +139,8 @@ body {
         flex-direction: row;
         flex-wrap:wrap;
         justify-content: center;
+        padding:64PX 32px;
     }
-
 }
 
 @media screen and (min-width: 860px){
@@ -155,6 +155,7 @@ body {
         font-size:40px;
         margin:32px;
     }
+
     .fact-frame {
         max-width:450px;
     }
