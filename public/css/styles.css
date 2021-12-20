@@ -24,6 +24,7 @@ body {
     position: fixed;
     top: 0;
     background-color: #fefefe;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
 
     display:flex;
     flex-direction:column;
@@ -50,6 +51,7 @@ body {
     padding: 8px;
     background-color:#00d69e;
     display:none;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
 }
 
 .navbar-mobile-option{
