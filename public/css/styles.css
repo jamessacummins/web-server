@@ -34,7 +34,7 @@ body {
     display:flex;
     flex-direction:row;
     width:100%;
-    max-width:800px;
+    max-width:900px;
 }
 
 #logo {
@@ -96,17 +96,24 @@ body {
     width:90%;
     max-width:400px;
 }
-
-#facts-box{
+#facts-wrapper{
     background-color: #ededed;
     width:100vw;
-    padding:32px;
 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#facts-box{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     gap:32px;
+
+    padding:32px;
+    width:100%;
+    max-width:900px;
 }
 
 .fact-frame {
@@ -139,7 +146,6 @@ body {
         flex-direction: row;
         flex-wrap:wrap;
         justify-content: center;
-        padding:64PX 32px;
     }
 }
 
@@ -157,7 +163,7 @@ body {
     }
 
     .fact-frame {
-        max-width:450px;
+        max-width:400px;
     }
     .fact-icon {
         width:125px;
