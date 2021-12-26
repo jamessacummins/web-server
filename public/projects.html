@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/projects.css?v=1.0">
 
 </head>
 
@@ -34,54 +34,41 @@
       <img id="hamburger" src="assets/hamburger.svg" onclick="toggleMobileOptions()">
     </div>
     <div id="navbar-mobile-options-box">
-      <a class="navbar-mobile-option" target="_blank" href="https://jamescummins.com.au">
-        Home
-      </a>
       <a class="navbar-mobile-option" target="_blank" href="https://medium.com/@jamessacummins">
         My Journey
       </a>
       <a class="navbar-mobile-option" href="">
-        Projects
+        My Projects
       </a>
       <a class="navbar-mobile-option" href="mailto:jamessacummins@gmail.com">
         Contact
       </a>
     </div>
   </div>
-  <div id="hero-box">
-    <div id="hero-text-box">
-      <div id="hero-text">
-        James Cummins
-      </div>
-      <div id="hero-subtext">
-        Software Engineer, UX Enthusiast, Designer and Language Learner
-      </div>
+  <div style="margin-top: 100px;"></div>
+  <h1 id="projects-header">Projects</h1>
+  <div class="projects-container">
+    <div class="project-frame">
+        <h3 class="project-frame-header">
+            DaHuo
+        </h3>
+        <div class="project-frame-button-container">
+            <a target="_blank" href="https://github.com/jamessacummins/dahuo">
+                <img class="project-button" src="assets/Github_button.png">
+            </a>
+            <a target="_blank" href="https://jamessacummins.github.io/dahuo/">
+                <img class="project-button" src="assets/Website_button.png">
+            </a>
+        </div>
+        <div class="project-description">
+            DaHuo was my first go at creating a working app for myself. Throughout my journey learning Chinese, I had realised that I would quite often see words that might be worth learning, but would be dismayed to find they were very rare obscure language. DaHuo lets you look up Chinese characters by the frequency of how often they occur in the language. 
+        </div>
+        <div class="project-screenshot-wrapper">
+            <img class="project-screenshot" src="assets/DaHuo.png">
+        </div>
+        <img class="bubbles-divider" src="assets/bubbles.png">
     </div>
-    <img id="hero-image" src="assets/hero.png">
-  </div>
-  <div id="facts-wrapper">
-    <div id="facts-box">
-      <div class="fact-frame">
-        <img class="fact-icon" src="assets/award.svg">
-        <div class="fact-text">
-          Macquarie University's Department of Computing Academic Commendation Recipient
-        </div>
-      </div>
-      <div class="fact-frame">
-        <img class="fact-icon" src="assets/website.svg">
-        <div class="fact-text">
-          <strong>8</strong> Modern Languages & <strong>5</strong> Modern Frameworks Used & Mastered <br><span
-            class="fact-subtext">Including Dotnet & Angular</span>
-        </div>
-      </div>
-      <div class="fact-frame">
-        <img class="fact-icon" src="assets/experience.svg">
-        <div class="fact-text">
-          3 + Years of Experience in the Industry<br><span class="fact-subtext">Including Building Apps, Product
-            Management and more...</span>
-        </div>
-      </div>
-    </div>
+    
   </div>
   <script src="js/scripts.js"></script>
 </body>
