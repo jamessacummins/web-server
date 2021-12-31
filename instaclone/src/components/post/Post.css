@@ -1,9 +1,67 @@
 .Post {
-    width:500px;
-    height:100px;
+    width:100%;
     border: solid 1px rgb(219,219,219);
+    background-color: #ffffff;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .Post-image {
     max-height: 100%;
     max-width: 100%;
+}
+
+.Post-header-wrapper{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 16px;
+}
+
+.Post-header-profile-pic {
+    height:32px;
+    border-radius: 100%;
+}
+.Post-header-profile-name {
+    font-weight:600;
+}
+.Post-header-details {
+    margin-left:auto;
+    width:30px
+}
+
+.Post-actions-wrapper{
+    width:100%;
+    padding: 16px;
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.Post-action {
+    height:35px;
+}
+.Post-actions-save {
+    margin-left: auto;
+}
+
+.Post-caption-wrapper {
+    width: 100%;
+    padding: 16px;
+    text-align: left;
+}
+.Post-caption-user {
+    font-weight:600;
+    margin-right:8px;
+}
+
+.Post-caption-text {
+    text-align: left;
 }
