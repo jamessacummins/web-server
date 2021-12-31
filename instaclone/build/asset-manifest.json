@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/instaclone/build/static/css/main.fccc9cc4.css",
-    "main.js": "/instaclone/build/static/js/main.58101244.js",
-    "static/js/787.b48a121e.chunk.js": "/instaclone/build/static/js/787.b48a121e.chunk.js",
-    "static/media/logo.svg": "/instaclone/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/instaclone/build/index.html",
-    "main.fccc9cc4.css.map": "/instaclone/build/static/css/main.fccc9cc4.css.map",
-    "main.58101244.js.map": "/instaclone/build/static/js/main.58101244.js.map",
-    "787.b48a121e.chunk.js.map": "/instaclone/build/static/js/787.b48a121e.chunk.js.map"
+    "main.css": "/instaclone/static/css/main.fccc9cc4.css",
+    "main.js": "/instaclone/static/js/main.39154a4b.js",
+    "static/js/787.b48a121e.chunk.js": "/instaclone/static/js/787.b48a121e.chunk.js",
+    "static/media/logo.svg": "/instaclone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/instaclone/index.html",
+    "main.fccc9cc4.css.map": "/instaclone/static/css/main.fccc9cc4.css.map",
+    "main.39154a4b.js.map": "/instaclone/static/js/main.39154a4b.js.map",
+    "787.b48a121e.chunk.js.map": "/instaclone/static/js/787.b48a121e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fccc9cc4.css",
-    "static/js/main.58101244.js"
+    "static/js/main.39154a4b.js"
   ]
 }
