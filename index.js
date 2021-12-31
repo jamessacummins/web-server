@@ -7,21 +7,14 @@ const app = express();
 
 const PORT = 3000;
 
-
-/*
-console.log(`__dirname is ${__dirname}`);
-
-app.use('/test', express.static('instaclone/build'));
-
-app.use(express.static('public', {
+app.use('/', express.static('public', {
     extensions: ['html', 'htm'],
-}));
-*/
-
-app.use('/', express.static('public') );
+}) );
 
 app.use('/red', express.static('blue') );
 
-app.use('/instaclone', express.static('instaclone/build') );
+app.use('/instaclone', express.static('instaclone/build', {
+    extensions: ['html', 'htm'],
+}) );
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
