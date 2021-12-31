@@ -1,5 +1,9 @@
 .Post {
-    width:100px;
+    width:500px;
     height:100px;
     border: solid 1px rgb(219,219,219);
+}
+.Post-image {
+    max-height: 100%;
+    max-width: 100%;
 }
