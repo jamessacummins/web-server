@@ -20,4 +20,8 @@ app.use(express.static('public', {
 
 app.use('/', express.static('public') );
 
+app.use('/red', express.static('blue') );
+
+app.use('/instaclone', express.static('instaclone/build') );
+
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
