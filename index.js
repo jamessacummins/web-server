@@ -11,11 +11,13 @@ app.use('/', express.static('public', {
     extensions: ['html', 'htm'],
 }) );
 
-app.use('/red', express.static('blue') );
-
 app.use('/instaclone', express.static('instaclone/build', {
     extensions: ['html', 'htm'],
 }) );
+
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+
+
 
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
@@ -32,6 +34,3 @@ connection.connect(function(err) {
  
   console.log('connected as id ' + connection.threadId);
 });
-
-
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

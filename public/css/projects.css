@@ -78,13 +78,13 @@ body {
     font-size:48px;
     font-weight: 700;
     color:#292929;
-    margin-top:64px;
+    margin-top:32px;
 }
 
 .projects-container{
     width: 95vw;
     max-width:900px;
-    margin-top:64px;
+    margin-top:32px;
 }
 .project-frame{
     display:flex;
@@ -92,7 +92,7 @@ body {
     align-items: center;
 }
 .project-frame-header{
-    font-size:48px;
+    font-size:32px;
     font-weight: 500;
     color:#292929;
     margin-top:32px;
@@ -106,7 +106,7 @@ body {
     gap:16px;
 }
 .project-button {
-    height:50px;
+    height:35px;
     width:auto;
 }
 .project-description{
