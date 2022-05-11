@@ -18,6 +18,9 @@ app.use('/instaclone', express.static('instaclone/build', {
 app.use('/2048', express.static('2048', {
   extensions: ['html', 'htm'],
 }) );
+app.use('/500', express.static('500scorer', {
+  extensions: ['html', 'htm'],
+}) );
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 

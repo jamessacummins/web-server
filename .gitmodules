@@ -1,3 +1,6 @@
 [submodule "2048"]
 	path = 2048
 	url = https://github.com/jamessacummins/2048
+[submodule "500scorer"]
+	path = 500scorer
+	url = https://github.com/jamessacummins/500scorer.git
