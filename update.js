@@ -13,15 +13,9 @@ function connectToSSH(){
     privateKey: "./ky.pem",
     })
     .then(function(){
-        ssh.execCommand("cd web-server")
+        ssh.execCommand("cd web-server && git pull & pm2 refresh all")
         .then(function(){
-             ssh.execCommand("git pull")
-             .then(() =>{
-                 ssh.execCommand("pm2 refresh all")
-                 .then(() => {
-                     ssh.dispose();
-                 })
-             })
+            ssh.dispose();
         })
     })
 };
