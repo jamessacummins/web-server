@@ -14,7 +14,7 @@ function connectToSSH(){
     })
     .then(function(){
         var commandArgument = process.argv[2] == null ? "" : process.argv[2] + ";";
-        ssh.execCommand(commandArgument + "cd web-server; git pull; git submodule update --recursive --remote; pm2 refresh all")
+        ssh.execCommand(commandArgument + "cd web-server; git pull; git submodule update --recursive --remote; pm2 restart all")
         .then(function(){
             ssh.dispose();
         })

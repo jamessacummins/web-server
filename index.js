@@ -4,10 +4,10 @@ var phpExpress = require('php-express')({
   binPath: 'php'
 });
 
+const app = express();
+
 app.engine('php', phpExpress.engine);
 app.all(/.+\.php$/, phpExpress.router);
-
-const app = express();
 
 // const PORT = process.env.PORT || 3000;
 
