@@ -13,7 +13,8 @@ function connectToSSH(){
     privateKey: "./ky.pem",
     })
     .then(function(){
-        ssh.execCommand("cd web-server; git pull; git submodule update --recursive --remote; pm2 refresh all")
+        var commandArgument = process.argv[2] == null ? "" : process.argv[2] + ";";
+        ssh.execCommand(commandArgument + "cd web-server; git pull; git submodule update --recursive --remote; pm2 refresh all")
         .then(function(){
             ssh.dispose();
         })
