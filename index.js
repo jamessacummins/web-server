@@ -1,15 +1,7 @@
 const express = require('express');
 const path = require('path');
-var phpExpress = require('php-express')({
-  binPath: 'php'
-});
 
 const app = express();
-
-app.engine('php', phpExpress.engine);
-app.set('view engine', 'php');
-app.all(/.+\.php$/, phpExpress.router);
-
 // const PORT = process.env.PORT || 3000;
 
 const PORT = 3000;
@@ -20,10 +12,6 @@ app.use('/', express.static('public', {
 
 app.use('/instaclone', express.static('instaclone/build', {
     extensions: ['html', 'htm'],
-}) );
-
-app.use('/freshtracks', express.static('freshtracks', {
-  extensions: ['html', 'htm'],
 }) );
 
 app.use('/2048', express.static('2048', {
