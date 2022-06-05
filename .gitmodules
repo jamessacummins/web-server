@@ -4,3 +4,6 @@
 [submodule "500scorer"]
 	path = 500scorer
 	url = https://github.com/jamessacummins/500scorer.git
+[submodule "freshtracks"]
+	path = freshtracks
+	url = https://github.com/jamessacummins/freshtracks.git
