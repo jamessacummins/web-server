@@ -6,7 +6,7 @@ var phpExpress = require('php-express')({
 
 const app = express();
 
-app.set('views', './views');
+app.set('views', './freshtracks');
 app.engine('php', phpExpress.engine);
 app.set('view engine', 'php');
 app.all(/.+\.php$/, phpExpress.router);
